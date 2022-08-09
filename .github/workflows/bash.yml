@@ -9,4 +9,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: echo "hi"
+      - run: |
+          echo "hi"
+          echo "salman"
