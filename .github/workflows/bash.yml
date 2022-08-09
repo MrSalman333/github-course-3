@@ -13,3 +13,4 @@ jobs:
       - name: bash script
         run: |
           npm i
+          echo ${{secrets.MY_SECRET_KEY}}
