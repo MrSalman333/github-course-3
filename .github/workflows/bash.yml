@@ -11,6 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: bash script
+        env:
+          SS: ${{secrets.MY_SECRET_KEY}}
         run: |
           npm i
           echo ${{secrets.MY_SECRET_KEY}}
+          echo $SS
