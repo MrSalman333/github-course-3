@@ -1,8 +1,0 @@
-name: bash job
-
-on:
-  pull_request:
-    breaches: ["*"]
-
-jobs:
-  runs-on:

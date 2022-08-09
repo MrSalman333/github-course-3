@@ -1,0 +1,12 @@
+name: bash job
+
+on:
+  push:
+    branches: ["*"]
+
+jobs:
+  linter:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "hi"
