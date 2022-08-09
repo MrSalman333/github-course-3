@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: |
-          echo "hi"
-          echo "salman"
+      - uses: actions/checkout@v3
+      - name: bash script
+        run: printenv
